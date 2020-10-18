@@ -25,3 +25,6 @@ module Saas
     # the framework and any gems in your application.
   end
 end
+class Application < Rails::Application
+  config.web_console.whitelisted_ips = '206.176.135.246'
+end
